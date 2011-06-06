@@ -1,0 +1,251 @@
+/* reset */
+abbr,article,aside,audio,bb,canvas,datagrid,datalist,details,dialog,figure,footer,header,mark,menu,meter,nav,output,progress,section,time,video {
+	display:block;
+}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,
+em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,hr,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,
+label,legend,table,caption,tbody,tfoot,thead,tr,th,td {
+	padding:0;
+	margin:0;
+	border:none;
+	outline:none;
+	vertical-align:baseline;
+	font-family:inherit;
+	font-size:100%;
+	
+}
+dfn,i,cite,var,address,em {
+	font-style:normal;
+}
+th,b,strong,h1,h2,h3,h4,h5,h6 {
+	font-weight:normal;
+}
+textarea,input,select{
+	font-family:inherit;
+	font-size:1em;
+}
+blockquote,q {
+	quotes:none;
+}
+q:before,q:after,
+blockquote:before,
+blockquote:after {
+	content:'';
+}
+ol,ul {
+	list-style:none;
+}
+ins {
+	text-decoration:none;
+}
+del {
+	text-decoration:line-through;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+caption,th,td {
+	text-align:left;
+}
+:focus {
+	outline:none;
+}
+/* /reset */
+
+ul, li{margin:0; padding:0;} 
+ul, li{list-style-image:none; list-style-position:outside; list-style-type:none;}
+
+h1,h2,h3,h4{margin:0;}
+
+img {border:0;}
+
+/*
+Internet Business Celebrity CSS Framework for Rapid Markup Dev
+
+Copyright: 2010 IBCICO Development
+Author: Bogdanov Igor
+e-mail: hello@ibcico.com
+Website: http://ibcico.com
+Website: http://InternetBusinessCelebrity.com
+
+
+*/
+
+/*
+layout
+*/
+
+/*
+deleted overflow:hidden from .page
+*/
+.тест{font-size:10em;}
+
+.page{ width:960px; background:#ffffff; margin:0 auto; z-index:10; -height:expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');
+}
+
+.photo_page {width:994px !important;}
+
+.content_area{width:927px; overflow:hidden;}
+
+.col_left{width:320px; min-height:1px; -height:1px;}
+.col_center{width:310px; margin-left:10px; -margin-left:15px;}
+.col_right{width:320px; margin-left:10px; -margin-left:15px;} 
+
+.col_left_combined{width:640px;}
+.col_right_combined{width:640px;  margin-left	:10px;}
+
+
+/*
+margin  and padding classes
+*/
+
+.margin_left_40{margin-left:40px !important; -margin-left:20px !important;}
+.margin_left_10{margin-left:10px !important;}
+.margin_left_5{margin-left:5px !important;}
+.margin_left_3{margin-left:3px !important;}
+
+.margin_top_10{margin-top:5px !important;}
+.margin_top_7{margin-top:5px !important;}
+.margin_top_5{margin-top:5px !important;}
+
+.no_margin{margin:0 !important;}
+
+.margin_bottom_3{margin-bottom:3px !important;}
+.margin_bottom_7{margin-bottom:7px !important;}
+
+
+.marginator{margin-bottom:3px; overflow:hidden; height:0px !important;
+			border-top: 0px solid #000;
+			border-bottom: 1px solid #bdbdbd;
+				}
+
+.marginator_without_border2x {overflow:hidden; height:40px; margin:0; border:0; padding:0; }
+.marginator_without_border {overflow:hidden; height:20px; margin:0; border:0; padding:0; }
+.marginator_without_border_half {overflow:hidden; height:10px; margin:0; border:0; padding:0; }
+
+
+.padding_top_10{padding-top:10px !important;}
+.padding_top_7{padding-top:7px !important;}
+
+
+
+/*
+colors
+*/
+.announce_text_color{color:#35333e;}
+
+
+
+.blue{color: #4288d2 !important;}
+.light_blue{color: #74a8de !important;}
+.green{color:#8bae72 !important;}
+
+/*old colors*/
+
+.grey_line{height:1px; background-color:#D8D8D8;}
+.article_text_color {color:#434343;}
+.grey {color:#858585 !important;}
+
+.black {color:#000 !important; }
+.white{color:#fff !important;}
+
+/*
+measures
+*/
+
+.width{width:100% !important;}
+.height{height:100% !important;}
+.width60 {width:60% !important;}
+.width70 {width:70% !important;}
+.width80 {width:80% !important;}
+
+/*
+ibc_positioning 
+*/
+
+.ovf { overflow: hidden; }
+
+.absolute{position:absolute !important;}
+.relative{position:relative !important;}
+
+.top{top:0 !important;}
+.right{right:0 !important;}
+.left{left:0 !important;}
+.bottom{bottom:0 !important;}
+
+.top50{top:50% !important;}
+.top-50{top:-50% !important;}
+.left50{left:50% !important;}
+.right50{right:50% !important;}
+.bottom50{bottom:50% !important;}
+
+.center{margin:0 auto;}
+
+.float{float:left !important;}
+.float_right{float:right !important;}
+
+.clear{clear:both !important; overflow:hidden;}
+.clear_left{clear:left !important;}
+.clear_right{clear:right !important;}
+
+.block{display:block !important;}
+.inline {display:inline !important;}
+.table{display:table !important;}
+.invisible{display: none !important;}
+.visible{display: block !important;}
+
+.cell {display:table-cell;}
+
+/*
+text and fonts
+*/
+.align_center{text-align:center !important;}
+.align_right{text-align:right !important;}
+.align_left{text-align:left !important;}
+
+.valign_top{vertical-align:top !important;}
+.valign_bottom{vertical-align:bottom !important;}
+.valign_middle{vertical-align:middle !important;}
+
+.em20{font-size:2em !important;}
+.em18{font-size:1.8em !important;}
+.em17{font-size:1.7em !important;}
+.em16{font-size:1.6em !important;}
+.em15{font-size:1.5em !important;}
+.em13{font-size:1.3em !important;}
+.em12{font-size:1.2em !important;}
+.em11{font-size:1.1em !important;}
+.em10{font-size:1em !important;}
+.em9 {font-size:0.9em !important;}
+.em8{font-size:0.8em !important;}
+.em7 {font-size:0.7em !important;}
+.em6{font-size:0.6em !important;}
+.em5{font-size:0.5em !important;}
+
+.bold{font-weight:bold !important;}
+.normal{font-weight:normal !important;}
+.underline {text-decoration:underline !important;}
+.no_underline {text-decoration:none !important;}
+.nowrap	{ white-space: nowrap !important; }
+.italic {text-syle:italic !important;}
+.uppercase {text-transform:uppercase !important; }
+.lowercase {text-transform:lowercase !important; }
+/*
+borders
+*/
+.no_border{border:0px solid black;}
+.img_border{border:1px solid #e5e5e5; padding:1px;}
+
+
+/*
+IE FIXES
+*/
+
+b {overflow:hidden;}
+
+
+
+
+
+
